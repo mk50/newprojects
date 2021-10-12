@@ -1,0 +1,48 @@
+ 
+  fist: if you want to make pull request 
+        Find a project you want to contribute to
+
+ click on the Fork button 
+ 
+The copy includes all the code, branches, and commits from the original repo.
+
+Next, clone the repo by opening the terminal on your computer and running the command:
+
+  git clone https://github.com/mohamedkhalid/demo
+  
+ after this step 
+  1. create a new branch 
+  git checkout -b newbranch
+
+  2. Create a new remote for upsream repo 
+   git remote add name_of_repo https://github.com/mohamedkhalid/demo
+
+  In this case, "upstream repo" refers to the original repo you created your fork from
+ 
+ and now you make changes on code
+  
+ after changes 	
+  you have to push the changes to my repo 
+  
+  then click on (compare & pull request) to open a pull request
+   
+ put a name for request
+ and click on (creat pull request)
+
+ and in the origin repo it found the pull request click on and check if the change usefually i merege it ..
+
+ steps
+1.Find a project you want to contribute to
+2.Fork it
+3.Clone it to your local system
+4.Make a new branch
+5.Make your changes
+6.Push it back to your repo
+7.Click the Compare & pull request button
+8.Click Create pull request to open a new pull request
+ 
+ and the change usefually i merege it .. 
+    
+
+ 
+  
