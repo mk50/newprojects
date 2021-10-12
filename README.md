@@ -3,7 +3,7 @@
 ### foobar is a Python for deadling with word pluralization
 
 # Intstallation
-### Use the package manager !pip to install foobar
+### Use the package manager `pip` to install foobar
 ```
 pip install footer
 ```

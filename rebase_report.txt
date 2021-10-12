@@ -1,0 +1,32 @@
+ 
+ assume the following history the cuurent branch is topic:
+ 
+               A--B--C topic
+              /
+           D--E--F--G master
+   
+   I have a master branch D E F G  and at commit E I make A B C brunch on topic
+   in this case  master branch doesn’t know anything about topic brunch 
+   and topik branch doesn’t know anything about F and G 
+  then I have to make a PULL from topic to master and do a merge from master to toppic
+  
+   befor rebase
+   E is a base 
+ 
+  from this point the result of the following command:
+  
+ git rebase master
+ git rebase master topic
+
+ whould be:
+  
+            A'--B'--C' topic
+            /
+  D--E--F--G  master
+   
+  after rebase G is a base
+
+ A' AND B' AND C' is make rebase for them
+
+ 
+  
