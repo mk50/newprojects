@@ -1,0 +1,15 @@
+ Tell me how to remove them locally and remotly.
+git push origin :dev
+git branche -D dev
+
+ git push origin :test
+ git branch -D test
+
+ tell me how to list tags locally.
+ 1.git tag
+
+ tell me how to delete tag locally and remotely.
+ to delete locally tag : git tag -d v1.4
+ to delete a remote tag : git push origin --delete v1.4
+
+
